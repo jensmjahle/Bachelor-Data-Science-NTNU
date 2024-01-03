@@ -1,0 +1,28 @@
+
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Í©ƒøÿÿÿÿ
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÁÊ”Âşÿÿÿÿ
+t
+java:S2293;"YReplace the type specification in this constructor call with the diamond operator ("<>").(¸Şóşÿÿÿÿ
+n
+java:S2293K"YReplace the type specification in this constructor call with the diamond operator ("<>").(ûÅÍ\
+o
+java:S2293i"YReplace the type specification in this constructor call with the diamond operator ("<>").(šëòú
+…
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¡ï2
+‹
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(‘éÿÒıÿÿÿÿ
+‹
+java:S1319:"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ïæÛüÿÿÿÿ
+†
+java:S1319J"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(°ä½
+…
+java:S1319["jThe type of "menyRetter" should be an interface such as "List" rather than the implementation "ArrayList".(Óì£èúÿÿÿÿ
+†
+java:S1319h"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ÖÚ‹±
+y
+java:S1157="cReplace these toUpperCase()/toLowerCase() and equals() calls with a single equalsIgnoreCase() call.(¶ÏÒû
+x
+java:S1157M"cReplace these toUpperCase()/toLowerCase() and equals() calls with a single equalsIgnoreCase() call.(¢²Š;
+h	java:S100["NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Óì£èúÿÿÿÿ

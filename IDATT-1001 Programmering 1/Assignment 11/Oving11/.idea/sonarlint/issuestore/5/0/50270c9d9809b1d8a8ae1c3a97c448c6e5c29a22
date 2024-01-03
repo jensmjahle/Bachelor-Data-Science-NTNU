@@ -1,0 +1,57 @@
+
+^
+java:S1192x"HDefine a constant instead of duplicating this literal "Gloppen" 5 times.(ñ×­Ó
+g
+java:S1192C"LDefine a constant instead of duplicating this literal "Lot number:" 3 times.(‹ğ¥ôøÿÿÿÿ
+l	java:S116"WRename this field "ADD_PROPERTY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úì©†
+x	java:S116"^Rename this field "LIST_ALL_PROPERTIES" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡ÿ«øÿÿÿÿ
+m	java:S116	"XRename this field "FIND_PROPERTY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’Šóí
+v	java:S116
+"aRename this field "CALCULATE_AVERAGE_AREA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§ù´Õ
+o	java:S116"ZRename this field "DELETE_PROPERTY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(û·ÿ®
+ƒ	java:S116"iRename this field "LIST_ALL_PROPERTIES_LOT_NUMBER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Êî«œüÿÿÿÿ
+i	java:S116"ORename this field "EXIT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁêÇûÿÿÿÿ
+7
+java:S1170"!Make this final field static too.(úì©†
+<
+java:S1170"!Make this final field static too.(¡ÿ«øÿÿÿÿ
+7
+java:S1170	"!Make this final field static too.(’Šóí
+7
+java:S1170
+"!Make this final field static too.(§ù´Õ
+7
+java:S1170"!Make this final field static too.(û·ÿ®
+<
+java:S1170"!Make this final field static too.(Êî«œüÿÿÿÿ
+<
+java:S1170"!Make this final field static too.(ÁêÇûÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(òÉâ®
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¸°†øÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Å¯³“øÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(§â„ùÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ıê³ìşÿÿÿÿ
+S	java:S106 "9Replace this use of System.out or System.err by a logger.(¥ğ™Áüÿÿÿÿ
+S	java:S106!"9Replace this use of System.out or System.err by a logger.(ÛºÚªøÿÿÿÿ
+S	java:S106""9Replace this use of System.out or System.err by a logger.(ÿœüşÿÿÿÿÿ
+S	java:S106#"9Replace this use of System.out or System.err by a logger.(ºéÛ‰üÿÿÿÿ
+S	java:S106("9Replace this use of System.out or System.err by a logger.(µ§üÉıÿÿÿÿ
+N	java:S106>"9Replace this use of System.out or System.err by a logger.(éõ©‘
+M	java:S106@"9Replace this use of System.out or System.err by a logger.(ÏÑ¶5
+S	java:S106C"9Replace this use of System.out or System.err by a logger.(‹ğ¥ôøÿÿÿÿ
+S	java:S106E"9Replace this use of System.out or System.err by a logger.(“ÇËÇúÿÿÿÿ
+S	java:S106G"9Replace this use of System.out or System.err by a logger.(•°¬ñûÿÿÿÿ
+N	java:S106J"9Replace this use of System.out or System.err by a logger.(±àø
+M	java:S106M"9Replace this use of System.out or System.err by a logger.(¤²ªy
+S	java:S106S"9Replace this use of System.out or System.err by a logger.(¿Œ¥ÿşÿÿÿÿ
+S	java:S106V"9Replace this use of System.out or System.err by a logger.(öĞğ şÿÿÿÿ
+M	java:S106X"9Replace this use of System.out or System.err by a logger.(Í¡œ[
+S	java:S106["9Replace this use of System.out or System.err by a logger.(¤åá¥ıÿÿÿÿ
+S	java:S106^"9Replace this use of System.out or System.err by a logger.(Ùóİ¹ıÿÿÿÿ
+S	java:S106`"9Replace this use of System.out or System.err by a logger.(‹ğ¥ôøÿÿÿÿ
+S	java:S106b"9Replace this use of System.out or System.err by a logger.(“ÇËÇúÿÿÿÿ
+S	java:S106d"9Replace this use of System.out or System.err by a logger.(Ç‘Õ·úÿÿÿÿ
+S	java:S106h"9Replace this use of System.out or System.err by a logger.(‹ğ¥ôøÿÿÿÿ
+N	java:S106j"9Replace this use of System.out or System.err by a logger.(ì¦âÑ
+S	java:S106m"9Replace this use of System.out or System.err by a logger.(ÈÆÇùşÿÿÿÿ
+S	java:S106q"9Replace this use of System.out or System.err by a logger.(É¨öûÿÿÿÿ

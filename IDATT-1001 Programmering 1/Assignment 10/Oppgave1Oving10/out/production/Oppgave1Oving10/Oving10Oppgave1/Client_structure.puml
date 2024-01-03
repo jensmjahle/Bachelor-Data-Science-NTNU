@@ -1,0 +1,150 @@
+@startuml
+
+/' diagram meta data start
+config=StructureConfiguration;
+{
+  "projectClassification": {
+    "searchMode": "OpenProject", // OpenProject, AllProjects
+    "includedProjects": "",
+    "pathEndKeywords": "*.impl",
+    "isClientPath": "",
+    "isClientName": "",
+    "isTestPath": "",
+    "isTestName": "",
+    "isMappingPath": "",
+    "isMappingName": "",
+    "isDataAccessPath": "",
+    "isDataAccessName": "",
+    "isDataStructurePath": "",
+    "isDataStructureName": "",
+    "isInterfaceStructuresPath": "",
+    "isInterfaceStructuresName": "",
+    "isEntryPointPath": "",
+    "isEntryPointName": "",
+    "treatFinalFieldsAsMandatory": false
+  },
+  "graphRestriction": {
+    "classPackageExcludeFilter": "",
+    "classPackageIncludeFilter": "Oving10Oppgave1",
+    "classNameExcludeFilter": "",
+    "classNameIncludeFilter": "",
+    "methodNameExcludeFilter": "",
+    "methodNameIncludeFilter": "",
+    "removeByInheritance": "", // inheritance/annotation based filtering is done in a second step
+    "removeByAnnotation": "",
+    "removeByClassPackage": "", // cleanup the graph after inheritance/annotation based filtering is done
+    "removeByClassName": "",
+    "cutMappings": false,
+    "cutEnum": true,
+    "cutTests": true,
+    "cutClient": true,
+    "cutDataAccess": true,
+    "cutInterfaceStructures": true,
+    "cutDataStructures": true,
+    "cutGetterAndSetter": true,
+    "cutConstructors": true
+  },
+  "graphTraversal": {
+    "forwardDepth": 3,
+    "backwardDepth": 3,
+    "classPackageExcludeFilter": "",
+    "classPackageIncludeFilter": "",
+    "classNameExcludeFilter": "",
+    "classNameIncludeFilter": "",
+    "methodNameExcludeFilter": "",
+    "methodNameIncludeFilter": "",
+    "hideMappings": false,
+    "hideDataStructures": false,
+    "hidePrivateMethods": true,
+    "hideInterfaceCalls": true, // indirection: implementation -> interface (is hidden) -> implementation
+    "onlyShowApplicationEntryPoints": false, // root node is included
+    "useMethodCallsForStructureDiagram": "ForwardOnly" // ForwardOnly, BothDirections, No
+  },
+  "details": {
+    "aggregation": "GroupByClass", // ByClass, GroupByClass, None
+    "showClassGenericTypes": true,
+    "showMethods": true,
+    "showMethodParameterNames": true,
+    "showMethodParameterTypes": true,
+    "showMethodReturnType": true,
+    "showPackageLevels": 2,
+    "showDetailedClassStructure": true
+  },
+  "rootClass": "Oving10Oppgave1.Client",
+  "extensionCallbackMethod": "" // qualified.class.name#methodName - signature: public static String method(String)
+}
+diagram meta data end '/
+
+
+
+digraph g {
+    rankdir="TB"
+    splines=polyline
+    
+
+'nodes 
+subgraph cluster_1746515187 { 
+   	label=Oving10Oppgave1
+	labeljust=l
+	fillcolor="#ececec"
+	style=filled
+   
+   Client1746515187[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)Client</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >+ addNewEvent()</TD></TR>
+<TR><TD ALIGN="LEFT" >+ main(args: String[])</TD></TR>
+<TR><TD ALIGN="LEFT" >+ mainMenu(): int</TD></TR>
+<TR><TD ALIGN="LEFT" >+ printAllEvents()</TD></TR>
+<TR><TD ALIGN="LEFT" >+ search()</TD></TR>
+<TR><TD ALIGN="LEFT" >+ sort()</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+Event1746515187[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)Event</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >-   eventName: String [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   eventNumber: String [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   eventOrganizer: String [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   eventPlace: String [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   eventTimestamp: double [1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   eventType: String [0..1]</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+EventRegister1746515187[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)EventRegister</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >-   EventRegister: ArrayList&lt;Event&gt; [0..*]</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >+ addNewEvent(eventNumber: String, eventName: String, eventPlace: String, eventOrganizer: String, eventType: String, eventTimestamp: double)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ eventExists(eventNumber: String): boolean</TD></TR>
+<TR><TD ALIGN="LEFT" >+ getEventsFromDate(date: double): ArrayList&lt;Event&gt;</TD></TR>
+<TR><TD ALIGN="LEFT" >+ getEventsFromTimeInterval(date1: double, date2: double): ArrayList&lt;Event&gt;</TD></TR>
+<TR><TD ALIGN="LEFT" >+ getEventsInPlace(eventPlace: String): ArrayList&lt;Event&gt;</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+} 
+
+'edges    
+EventRegister1746515187 -> Event1746515187[label="EventRegister
+[0..*]"];
+    
+}
+@enduml

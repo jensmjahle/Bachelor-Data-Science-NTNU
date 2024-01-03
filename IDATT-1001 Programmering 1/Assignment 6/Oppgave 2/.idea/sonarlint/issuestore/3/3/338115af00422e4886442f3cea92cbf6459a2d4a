@@ -1,0 +1,14 @@
+
+7
+java:S1643R"Use a StringBuilder instead.(¾Úüøÿÿÿÿ
+{
+java:S1488U"`Immediately return this expression instead of assigning it to the temporary variable "resultat".(««¼üÿÿÿÿ
+0
+java:S1220""Move this file to a named package.
+^
+java:S3518="CMake sure this expression can't be zero before doing this division.(êæ÷Èøÿÿÿÿ
+S
+java:S1117
+"=Rename "antallTegn" which hides the field declared at line 5.(şÙ—›
+B
+java:S1905"'Remove this unnecessary cast to "char".(ºàíıÿÿÿÿ

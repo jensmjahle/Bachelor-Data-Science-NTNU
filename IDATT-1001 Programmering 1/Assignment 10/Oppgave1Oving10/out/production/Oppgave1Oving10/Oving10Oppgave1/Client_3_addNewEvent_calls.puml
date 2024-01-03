@@ -1,0 +1,156 @@
+@startuml
+
+/' diagram meta data start
+config=CallConfiguration;
+{
+  "rootMethod": "Oving10Oppgave1.Client#addNewEvent()",
+  "projectClassification": {
+    "searchMode": "OpenProject", // OpenProject, AllProjects
+    "includedProjects": "",
+    "pathEndKeywords": "*.impl",
+    "isClientPath": "",
+    "isClientName": "",
+    "isTestPath": "",
+    "isTestName": "",
+    "isMappingPath": "",
+    "isMappingName": "",
+    "isDataAccessPath": "",
+    "isDataAccessName": "",
+    "isDataStructurePath": "",
+    "isDataStructureName": "",
+    "isInterfaceStructuresPath": "",
+    "isInterfaceStructuresName": "",
+    "isEntryPointPath": "",
+    "isEntryPointName": "",
+    "treatFinalFieldsAsMandatory": false
+  },
+  "graphRestriction": {
+    "classPackageExcludeFilter": "",
+    "classPackageIncludeFilter": "Oving10Oppgave1",
+    "classNameExcludeFilter": "",
+    "classNameIncludeFilter": "",
+    "methodNameExcludeFilter": "",
+    "methodNameIncludeFilter": "",
+    "removeByInheritance": "", // inheritance/annotation based filtering is done in a second step
+    "removeByAnnotation": "",
+    "removeByClassPackage": "", // cleanup the graph after inheritance/annotation based filtering is done
+    "removeByClassName": "",
+    "cutMappings": false,
+    "cutEnum": true,
+    "cutTests": true,
+    "cutClient": true,
+    "cutDataAccess": true,
+    "cutInterfaceStructures": true,
+    "cutDataStructures": true,
+    "cutGetterAndSetter": true,
+    "cutConstructors": true
+  },
+  "graphTraversal": {
+    "forwardDepth": 3,
+    "backwardDepth": 3,
+    "classPackageExcludeFilter": "",
+    "classPackageIncludeFilter": "",
+    "classNameExcludeFilter": "",
+    "classNameIncludeFilter": "",
+    "methodNameExcludeFilter": "",
+    "methodNameIncludeFilter": "",
+    "hideMappings": false,
+    "hideDataStructures": false,
+    "hidePrivateMethods": true,
+    "hideInterfaceCalls": true, // indirection: implementation -> interface (is hidden) -> implementation
+    "onlyShowApplicationEntryPoints": false, // root node is included
+    "useMethodCallsForStructureDiagram": "ForwardOnly" // ForwardOnly, BothDirections, No
+  },
+  "details": {
+    "aggregation": "GroupByClass", // ByClass, GroupByClass, None
+    "showMethodParametersTypes": false,
+    "showMethodParametersNames": false,
+    "showMethodReturnType": false,
+    "showPackageLevels": 2,
+    "showCallOrder": false,
+    "edgeMode": "MethodsOnly", // TypesOnly, MethodsOnly, TypesAndMethods, MethodsAndDirectTypeUsage
+    "showDetailedClassStructure": false
+  },
+  "rootClass": "Oving10Oppgave1.Client",
+  "extensionCallbackMethod": "" // qualified.class.name#methodName - signature: public static String method(String)
+}
+diagram meta data end '/
+
+
+
+digraph g {
+    rankdir="LR"
+    splines=polyline
+    
+
+'nodes 
+subgraph cluster_1746515187 { 
+   	label=Oving10Oppgave1
+	labeljust=l
+	fillcolor="#ececec"
+	style=filled
+   
+   subgraph cluster_2065447550 { 
+   	label=EventRegister
+	labeljust=l
+	fillcolor=white
+	style=filled
+   
+   EventRegister1746515187XXXaddNewEvent883934710[
+	label="+ addNewEvent()"
+	style=filled
+	fillcolor=white
+	tooltip="EventRegister
+
+&#10;  The method adds a new event to the event register.&#10; &#10;  @param eventNumber Event number. As a String.&#10;  @param eventName Event Name. As a String.&#10;  @param eventPlace Event place. As a String.&#10;  @param eventOrganizer Event organizer. As a String.&#10;  @param eventType Event type. As a String.&#10;  @param eventTimestamp Event time as YYYYMMDDTTTT. As an integer.&#10; "
+	fontcolor=darkgreen
+];
+
+EventRegister1746515187XXXeventExists1808118735[
+	label="+ eventExists()"
+	style=filled
+	fillcolor=white
+	tooltip="EventRegister
+
+&#10;  The method checks if an event exists in the event register.&#10; &#10;  @param eventNumber Event number.&#10;  @return Returns true if the event exists and false if not.&#10; "
+	fontcolor=darkgreen
+];
+} 
+
+subgraph cluster_504895162 { 
+   	label=Client
+	labeljust=l
+	fillcolor=white
+	style=filled
+   
+   Client1746515187XXXaddNewEvent0[
+	label="+ addNewEvent()"
+	style=filled
+	fillcolor=white
+	tooltip="Client
+
+&#10;  The method gives the user opportunity to add an event to the register.&#10; "
+	penwidth=4
+	fontcolor=darkgreen
+];
+
+Client1746515187XXXmain1859653459[
+	label="+ main()"
+	style=filled
+	fillcolor=white
+	tooltip="Client
+
+null"
+	fontcolor=darkgreen
+];
+} 
+} 
+
+'edges    
+Client1746515187XXXaddNewEvent0 -> Client1746515187XXXaddNewEvent0;
+Client1746515187XXXaddNewEvent0 -> EventRegister1746515187XXXaddNewEvent883934710;
+Client1746515187XXXmain1859653459 -> Client1746515187XXXaddNewEvent0;
+EventRegister1746515187XXXaddNewEvent883934710 -> EventRegister1746515187XXXeventExists1808118735;
+    
+}
+@enduml
