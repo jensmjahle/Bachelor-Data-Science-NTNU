@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Assignment_2_1_IDATT2506</string>
+    <string name="add">Adder</string>
+    <string name="multiply">Multipliser</string>
+    <string name="answer">Svar:</string>
+    <string name="upper_limit">Øvre grense:</string>
+    <string name="correct">Riktig!</string>
+    <string name="wrong">Feil. Riktig svar er</string>"
+    <string name="try_again">Nytt forsøk</string>
+    <string name="back">Gå tilbake</string>
+</resources>

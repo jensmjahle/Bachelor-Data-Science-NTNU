@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ntnu.idatt2506.assignment_1_idatt2506.MainActivity">
+    <item
+        android:id="@+id/action_firstname"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:orderInCategory="100"
+        android:title="Jens Martin"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_lastname"
+        android:icon="@android:drawable/ic_dialog_alert"
+        android:orderInCategory="100"
+        android:title="Jahle"
+        app:showAsAction="never" />
+</menu>
