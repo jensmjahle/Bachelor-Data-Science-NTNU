@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/run/media/jmjahle/MicroSD Samsung/Bachelor Data Science/INFT-2503 C++/Assignment_3_INFT2503/build",
+  "command": "/usr/bin/c++    -std=c++1y -Wall -Wextra -o CMakeFiles/Assignment_3_INFT2503.dir/main.cpp.o -c \"/run/media/jmjahle/MicroSD Samsung/Bachelor Data Science/INFT-2503 C++/Assignment_3_INFT2503/main.cpp\"",
+  "file": "/run/media/jmjahle/MicroSD Samsung/Bachelor Data Science/INFT-2503 C++/Assignment_3_INFT2503/main.cpp",
+  "output": "CMakeFiles/Assignment_3_INFT2503.dir/main.cpp.o"
+}
+]

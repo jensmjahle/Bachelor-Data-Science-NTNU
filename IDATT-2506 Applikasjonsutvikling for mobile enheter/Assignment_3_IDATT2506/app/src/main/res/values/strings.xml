@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Assignment_3_IDATT2506</string>
+    <string name="welcome_message">Velkommen til Assignment 3</string>
+    <string name="add_friend">Ny venn</string>
+    <string name="edit">Rediger</string>
+    <string name="delete">Slett</string>
+    <string name="cancel">Avbryt</string>
+    <string name="save">Lagre</string>
+    <string name="name">Navn</string>
+    <string name="birthdate">Fødselsdato</string>
+</resources>

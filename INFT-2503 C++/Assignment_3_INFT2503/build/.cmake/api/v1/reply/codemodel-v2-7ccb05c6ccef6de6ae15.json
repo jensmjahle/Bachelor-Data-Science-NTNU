@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Assignment_3_INFT2503",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Assignment_3_INFT2503::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Assignment_3_INFT2503-5ab3b29ecedf13f0dd67.json",
+					"name" : "Assignment_3_INFT2503",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/run/media/jmjahle/MicroSD Samsung/Bachelor Data Science/INFT-2503 C++/Assignment_3_INFT2503/build",
+		"source" : "/run/media/jmjahle/MicroSD Samsung/Bachelor Data Science/INFT-2503 C++/Assignment_3_INFT2503"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
