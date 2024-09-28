@@ -1,0 +1,3 @@
+/run/media/jmjahle/MicroSD Samsung/Bachelor Data Science/INFT-2503 C++/Assignment_3_INFT2503/build/CMakeFiles/Assignment_3_INFT2503.dir
+/run/media/jmjahle/MicroSD Samsung/Bachelor Data Science/INFT-2503 C++/Assignment_3_INFT2503/build/CMakeFiles/edit_cache.dir
+/run/media/jmjahle/MicroSD Samsung/Bachelor Data Science/INFT-2503 C++/Assignment_3_INFT2503/build/CMakeFiles/rebuild_cache.dir
