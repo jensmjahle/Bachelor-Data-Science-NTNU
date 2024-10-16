@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Assignment 5 IDATT2506</string>
+    <string name="name_input_hint">Skriv navn her</string>
+    <string name="cardnumber_input_hint">Skriv kortnummer her</string>
+    <string name="submit_button">Start</string>
+    <string name="send_answer_button">Send svar</string>
+    <string name="reset_button">Start på nytt</string>
+    <string name="submit_hint">Skriv inn det du tror er riktig</string>
+</resources>
